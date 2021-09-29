@@ -1,12 +1,8 @@
 function Todo({todo,index,remove}){
-    function handle(){
-    console.log('Ping:',index);
-    remove(index);
-  }
+    const { Button } = ReactBootstrap;
   return (
       <div>
-        <div className="todo" onClick={handle}>{todo.text} (-)</div>
-        <button className="delete" onClick={function(){remove(index)}}>Delete</button>
+        <div className="todo">{todo.text} <Button className="delete" onClick={function(){remove(index)}}>Delete</Button></div>
       </div>
   )
 }

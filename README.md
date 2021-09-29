@@ -4,12 +4,13 @@
 
 A TODO list to remember the things you have to do following the CRUD model
 
-![submit-form.gif](./src/submit-form.gif)
+![todo-list.gif](./todo-list.gif)
 
 What is being **used** in this project:
 - **React** to create the whole project
 - **Formik** to simplify form fields creation and validations
 - **Regex** to validate field values formats
+- **Bootstrap** to improve the project styles
 
 ## What it does
 
